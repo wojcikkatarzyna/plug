@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="plug" version="0.0.1">
+        id="cordova-plugin-plug" version="0.0.1">
     <name>Plug</name>
 
     <description>An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.</description>
@@ -21,10 +21,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Plug">
-                <param name="android-package" value="com.wojcikkatarzyna.Plug"/>
+                <param name="android-package" value="com.wojcikkatarzyna.cordova.plugin.Plug"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Plug.java" target-dir="src/com/wojcikkatarzyna" />
+        <source-file src="src/android/Plug.java" target-dir="src/com/wojcikkatarzyna/cordova/plugin" />
     </platform>
 </plugin>

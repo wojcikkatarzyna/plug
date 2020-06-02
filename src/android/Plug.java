@@ -1,4 +1,4 @@
-package com.wojcikkatarzyna;
+package com.wojcikkatarzyna.cordova.plugin;
 // The native Toast API
 import android.widget.Toast;
 // Cordova-required packages
